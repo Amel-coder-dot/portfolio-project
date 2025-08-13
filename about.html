@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="About Freya - Freya is a front-end engineer based in the UK."
+    />
+    <title>About Freya - Freya Collie</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,7 +29,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <a class="navbar-brand" href="#">
-        <img src="/images/shecodeslogo.png" alt="" class="logo" />
+        <img src="/images/shecodeslogo.png" alt="Freya's Logo" class="logo" />
       </a>
       <button
         class="navbar-toggler"
@@ -41,18 +45,20 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="/index.html"> Home </a>
+            <a class="nav-link" href="/index.html" title="Homepage"> Home </a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="/"
+            <a class="nav-link" href="/" title="About Freya"
               >About <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contact.html">Contact</a>
+            <a class="nav-link" href="/contact.html" title="Contact Freya"
+              >Contact</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/work.html">Work</a>
+            <a class="nav-link" href="/work.html" title="Freya's work">Work</a>
           </li>
         </ul>
       </div>
@@ -69,14 +75,72 @@
               everything is well explained, homework and deadlines are good for
               keep focus.
             </p>
-            <a href="" class="btn btn-branding">See my projects</a>
+            <a href="/work.html" class="btn btn-branding">See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/cwgI-patricia.png" alt="" class="img-fluid" />
+          <img
+            src="images/cwgI-patricia.png"
+            alt="Picture of Patricia"
+            class="img-fluid"
+          />
         </div>
       </div>
     </div>
+    <footer>
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding"
+            title="Contact Freya"
+          >
+            Contact Me
+          </a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:collie.freya@gmail.com"
+          class="email-link"
+          title="Email Freya"
+          >collie.freya@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.instagram.com/freya.codes"
+          target="_blank"
+          title="Instagram Profile"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a
+          href="https://github.com/Amel-coder-dot"
+          target="_blank"
+          title="Github Profile"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.x.com/freya" target="_blank" title="X Profile">
+          <i class="fa-brands fa-x"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">
+        🫰 This project was coded by Freya, and it is
+        <a
+          href="https://github.com/Amel-coder-dot/portfolio-project"
+          target="_blank"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
